@@ -1,0 +1,1 @@
+$.extend({clouduiProgress:function(a){}});
