@@ -1,1 +1,0 @@
-$.extend({clouduiTab:function(a,b){var c=a.children("div:first"),d=c.next("div"),e=void 0==b.event?"click":b.event,f=b.activeClass;c.find("li").bind(e,function(){if(!$(this).hasClass(f)){$(this).addClass(f).siblings().removeClass(f),d.children("ul").hide();var a=d.children("ul").eq($(this).index());void 0!=b.fadeIn?a.fadeIn(b.fadeIn):a.show()}})}});
