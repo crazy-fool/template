@@ -38,3 +38,5 @@ cloudui.confirm('文字', 确定按钮回调(), 取消按钮回调());
 <p>val=n-n：取值范围（仅适用于数字）</p>
 
 例如：data-rule="require|len=4-6|val=10-20" data-msg="提示1|提示2|提示3"
+
+????????
